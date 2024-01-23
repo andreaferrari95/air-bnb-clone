@@ -1,0 +1,102 @@
+.bold {
+  font-weight: bold;
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.nav {
+  height: 70px;
+  display: flex;
+  padding: 20px 36px;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+}
+
+.nav--logo {
+  max-width: 100px;
+}
+
+section {
+  padding: 20px;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero--img {
+  max-width: 80%;
+  align-self: center;
+}
+
+.hero--h1,
+.hero--p {
+  margin-left: 2.5rem;
+}
+
+.hero--h1 {
+  font-size: 3em;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.hero--p {
+  font-size: 1.5em;
+  font-style: normal;
+  font-weight: 300;
+  margin-top: 0;
+  /* 1.1rem */
+  max-width: 20em;
+}
+
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+}
+
+.card {
+  max-width: 25rem;
+  font-size: 1.5rem;
+  flex: 0 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card--image {
+  max-width: 20rem;
+  border-radius: 9px;
+  margin-bottom: 9px;
+}
+
+.card--stats {
+  display: flex;
+  align-items: center;
+}
+
+.card--star {
+  height: 1.5rem;
+}
+
+.card--price {
+  margin-top: auto;
+}
+
+.card--title {
+  font-size: 1.4rem;
+}
+
+.card--badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 5px 7px;
+  border-radius: 2px;
+  font-weight: bold;
+}
